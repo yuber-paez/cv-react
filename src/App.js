@@ -59,8 +59,8 @@ function App() {
         setOpenMenu={setOpenMenu}
       />
 
-      <div className="pt-14 ">
-        <div className="w-full h-[calc(100vh-3.5rem)] overflow-auto scroll-smooth">
+      <div className="pt-14">
+        <div className="w-full h-[calc(100vh-3.5rem-40px)] overflow-auto scroll-smooth">
           <div
             className="flex justify-center transition-all duration-300 ease-in-out py-5"
             style={{
@@ -109,10 +109,11 @@ function App() {
           </div>
         </div>
       </div>
-      <footer className="fixed bottom-0 left-0 w-full text-center text-xs text-neutral-300 py-2 bg-neutral-900/70 backdrop-blur-md border-t border-neutral-700">
-        © {new Date().getFullYear()} Yuber Paez · Desarrollador de Software
+      <footer className="fixed bottom-0 left-0 w-full text-center text-xs text-neutral-300 py-3 bg-neutral-900/70 backdrop-blur-md border-t border-neutral-700">
+        © {new Date().getFullYear()} Yuber Paez - Desarrollador de Software
       </footer>
     </div>
+
   );
 }
 
